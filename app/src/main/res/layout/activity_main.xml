@@ -4,68 +4,84 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <LinearLayout
+    <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:background="@drawable/img_main_banner"
-        android:gravity="center">
+        android:background="@drawable/img_main_banner">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#80000000" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Welcome to CampusLife‑ Your Pocket Guide to University of Waikato"
-            android:textSize="40sp"
+            android:layout_gravity="center"
+            android:padding="16dp"
+            android:text="Welcome to CampusLife - Your Pocket Guide to University of Waikato"
             android:textColor="#FFFFFF"
-            android:gravity="center"/>
-    </LinearLayout>
+            android:textSize="40sp"
+            android:gravity="center" />
+    </FrameLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
         android:background="@color/green"
-        android:orientation="horizontal">
+        android:orientation="vertical">
 
-        <ImageButton
-            android:id="@+id/btn_facilities"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
             android:layout_weight="1"
-            android:scaleType="fitCenter"
-            android:background="@drawable/btn_selector"
-            android:onClick="onFacilitiesClick"
-            android:src="@drawable/img_btn_facilities"/>
+            android:orientation="horizontal">
+            <ImageButton
+                android:id="@+id/btn_facilities"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:background="@drawable/btn_selector"
+                android:onClick="onFacilitiesClick"
+                android:src="@drawable/img_btn_facilities"/>
+            <ImageButton
+                android:id="@+id/btn_events"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:background="@drawable/btn_selector"
+                android:onClick="onEventsClick"
+                android:src="@drawable/img_btn_events"/>
+        </LinearLayout>
 
-        <ImageButton
-            android:id="@+id/btn_events"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
             android:layout_weight="1"
-            android:scaleType="fitCenter"
-            android:background="@drawable/btn_selector"
-            android:onClick="onEventsClick"
-            android:src="@drawable/img_btn_events"/>
-
-        <ImageButton
-            android:id="@+id/btn_clubs"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:scaleType="fitCenter"
-            android:background="@drawable/btn_selector"
-            android:onClick="onClubsClick"
-            android:src="@drawable/img_btn_clubs"/>
-
-        <ImageButton
-            android:id="@+id/btn_support"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:scaleType="fitCenter"
-            android:background="@drawable/btn_selector"
-            android:onClick="onSupportClick"
-            android:src="@drawable/img_btn_support"/>
-
+            android:orientation="horizontal">
+            <ImageButton
+                android:id="@+id/btn_clubs"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:background="@drawable/btn_selector"
+                android:onClick="onClubsClick"
+                android:src="@drawable/img_btn_clubs"/>
+            <ImageButton
+                android:id="@+id/btn_support"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:background="@drawable/btn_selector"
+                android:onClick="onSupportClick"
+                android:src="@drawable/img_btn_support"/>
+        </LinearLayout>
     </LinearLayout>
+
 </LinearLayout>

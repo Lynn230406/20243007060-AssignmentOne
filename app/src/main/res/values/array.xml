@@ -7,11 +7,21 @@
         <item>Support</item>
     </string-array>
 
+    <string-array name="subtitles">
+        <item>Hamilton &amp; Tauranga Facilities</item>
+        <item>School or Divisional Engagement Events</item>
+        <item>Discover New Interests</item>
+        <item>Student Support Services</item>
+    </string-array>
+
     <string-array name="details">
-        <item>Facilities information: University of Waikato has libraries, labs and study spaces available for students.</item>
-        <item>Events information: Check the campus calendar for upcoming workshops, talks and social activities.</item>
-        <item>Clubs information: Join student clubs to meet people with similar hobbies and interests.</item>
-        <item>Support information: Student support services offer help with study, wellbeing and academic advice.</item>
+        <item>Hamilton Facilities:\n- Indoor Courts: We have two indoor courts on campus, including UniRec\'s Sports Hall and the School of Education Court.\n- Outdoor Courts: Our newly re-purposed outdoor courts include basketball, netball and tennis courts.\n- Outdoor Fields: We have large field space on our campus, which can be used for touch, rugby, football, cricket and more.\n\nTauranga Facilities:\n- Queen Elizabeth Youth Centre (QEYC): 20-minute walk or five min cycle from Tauranga central campus.</item>
+
+        <item>School or Faculty Engagement Events offer a valuable opportunity for prospective students and their whānau to find out more about their academic interests. These events provide tailored information about the specific subject areas that students are passionate about.\n\nEvent &amp; Date:\n- Waikato National Secondary Schools Motocross Competition: 1 May - July\n- Experience Psychology, Forensic Psychology and Crime Science: 24 June\n- Experience Design: 1 Tuesday, 1 July\n- Engineering Information Evening (Tauranga): Thursday, 24 July</item>
+
+        <item>1. Animal Rights &amp; Climate Justice: We take action in a variety of ways on campus to promote veganism and a plant-based food system for the sake of animals and the climate.\n\n2. We are the uni students &amp; young adults of ARISE Church! We\'re all about doing "together" whether you\'re at uni, work, or at play this is the place for you.\n\n3. The purpose of the Asian Law Student Association (ALSA) is to provide an environment for Asian law students to foster community and create a network of support within the law school.</item>
+
+        <item>On this page:\n- Accessibility Services\n- Careers &amp; Employability\n- Chaplaincy\n- Class Representative System\n- Halls of Residence\n- International Student Support\n\nHalls of Residence:\nThe Accommodation Services Office assists and processes the applications to each of the University\'s four Hamilton-based Halls of Residence: Bryant Hall, College Hall, Student Village and Orchard Park.</item>
     </string-array>
 
     <string-array name="images">
