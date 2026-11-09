@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="titles">
+        <item>Facilities</item>
+        <item>Events</item>
+        <item>Clubs</item>
+        <item>Support</item>
+    </string-array>
+
+    <string-array name="details">
+        <item>Facilities information: University of Waikato has libraries, labs and study spaces available for students.</item>
+        <item>Events information: Check the campus calendar for upcoming workshops, talks and social activities.</item>
+        <item>Clubs information: Join student clubs to meet people with similar hobbies and interests.</item>
+        <item>Support information: Student support services offer help with study, wellbeing and academic advice.</item>
+    </string-array>
+
+    <string-array name="images">
+        <item>img_btn_facilities</item>
+        <item>img_btn_events</item>
+        <item>img_btn_clubs</item>
+        <item>img_btn_support</item>
+    </string-array>
+</resources>
